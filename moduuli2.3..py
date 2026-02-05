@@ -1,7 +1,7 @@
-Kirjoita ohjelma,
-joka kysyy suorakulmion kannan ja korkeuden.
-Ohjelma tulostaa suorakulmion piirin ja pinta-alan.
-Suorakulmion piiri tarkoittaa sen neljän sivun yhteispituutta.
-
-
-
+import math
+kanta = int(input("Mikä on suorakulmion kanta?"))
+korkeus = int(input("Mikä on suorakulmion korkeus"))
+piiri = (2 * kanta + 2 * korkeus)
+pintaala= kanta * korkeus
+print(piiri)
+print(pintaala)
