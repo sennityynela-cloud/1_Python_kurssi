@@ -6,7 +6,6 @@ while True:
     if kokonaisluku < 0:
         print("Virheellinen numero")
         kokonaisluku = int(input("Anna kokonaisluku (nolla lopettaa ohjelman):"))
-        break
     elif kokonaisluku > 0:
         print(sqrt(kokonaisluku))
         kokonaisluku = int(input("Anna kokonaisluku (nolla lopettaa ohjelman):"))
